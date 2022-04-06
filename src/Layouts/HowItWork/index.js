@@ -1,7 +1,12 @@
 import React from "react";
 
 const HowItWork = () => {
-  return <></>;
+  return (
+    <>
+      {" "}
+      <div>hello</div>
+    </>
+  );
 };
 
 export default HowItWork;

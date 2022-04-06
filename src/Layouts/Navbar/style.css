@@ -29,3 +29,143 @@
 .nav-link {
   color: rgb(41, 40, 40) !important;
 }
+
+
+/* About css  */
+.heading,
+.p {
+  color: #fff;
+  font-family: SANS-SERIF;
+}
+
+.heading2,
+.p2 {
+  color: #000;
+  font-family: sans-serif;
+}
+
+.percent {
+  color: #fff;
+  font-family: sans-serif;
+  width: 30%;
+}
+.b-text {
+  color: #fff;
+}
+
+.text-one {
+  color: #3cb649;
+}
+
+.button-btn {
+  background-color: #3cb649;
+  color:#fff;
+  font-family: sans-serif;
+}
+/* Team Styling */
+
+/*** Team ***/
+.team-item img {
+  position: relative;
+  top: 0;
+  transition: 0.5s;
+}
+
+.team-item:hover img {
+  top: -30px;
+}
+
+.team-item .team-text {
+  position: relative;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.team-item:hover .team-text {
+  margin-top: -60px;
+  height: 160px;
+}
+
+.team-item .team-text .team-social {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.team-item:hover .team-text .team-social {
+  opacity: 1;
+}
+
+.team-item .team-social .btn {
+  display: inline-flex;
+  color: #3cb649;
+  background: #ffffff;
+  border-radius: 40px;
+}
+
+.team-item .team-social .btn:hover {
+  color: #ffffff;
+  background-color:#3cb649; 
+}
+
+.text-position{
+    color: #3cb649;
+}
+/* footer */
+
+
+/*** Footer ***/
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border: 1px solid #ffffff;
+  transition: 0.3s;
+}
+
+.footer .btn.btn-social:hover {
+  color: var(--primary);
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+  color: var(--primary);
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.footer .copyright a {
+  color: var(--light);
+}
+
+.footer .copyright a:hover {
+  color: var(--primary);
+}
